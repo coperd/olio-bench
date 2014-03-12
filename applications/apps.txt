@@ -1,0 +1,11 @@
+Put the following application packages(.tar.gz) to this directory:
+App List:
+    @faban-kit-*.tar.gz
+    @apache-olio-php-*.tar.gz
+    @mysql-connector-java-*.tar.gz
+    @apache-tomcat-*.tar.gz
+
+Currently only tar.gz compression format is supported, please pay special 
+attention to this and DO NOT put any other unrelated packages to this 
+directory so as not to confuse the shell scripts which recognize the real
+package by their names only.
